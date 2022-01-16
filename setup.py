@@ -18,15 +18,15 @@ long_description = f.read().strip()
 f.close()
 
 setup(
-    name='django-cron',
+    name='django4-cron',
     version='0.5.1',
     author='Sumit Chachra',
     author_email='chachra@tivix.com',
-    url='http://github.com/tivix/django-cron',
-    description='Running python crons in a Django project',
+    url='http://github.com/rehmatworks/django-cron',
+    description='Running python crons in a Django project. Updated to work with Django 4.0 by Rehmat Alam.',
     packages=find_packages(),
     long_description=long_description,
-    keywords='django cron',
+    keywords='django django 4 cron',
     zip_safe=False,
     install_requires=[
         'Django>=1.8.0',
